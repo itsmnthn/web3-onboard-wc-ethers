@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "^3.9.0",
+    "vite-plugin-node-polyfills": "^0.19.0"
+  },
+  "dependencies": {
+    "@web3-onboard/core": "^2.21.2",
+    "@web3-onboard/injected-wallets": "^2.10.10",
+    "@web3-onboard/walletconnect": "^2.5.2",
+    "ethers": "5.7.2"
+  }
+}
